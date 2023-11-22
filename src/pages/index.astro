@@ -1,0 +1,38 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1>👾 Hello, everyone!</h1>
+			<p>Hello and welcome to my corner of the web! 🌐✨ Crafted with the magic of <a href="https://astro.build/" target="_blank">Astro</a>, this is more than just a blog—it's a digital journal chronicling my coding odyssey.</p>
+
+			<p>Here, I invite you to join me on this exciting journey through the world of coding. Whether it's diving into intriguing projects, jotting down essential notes, or creating step-by-step code tutorials, this space is my canvas for sharing and learning.</p>
+		
+			<p>Why did I create this hub, you ask? Well, it's not just for you; it's for me too! Consider this a personal coding vault where I document my projects and insights. A quick refresher for future me, and a helpful resource for you.</p>
+		
+			<p>So buckle up, explore the code-filled expanse, and let's embark on this coding adventure together! 🚀💻</p>
+
+			<h5>Some of my sites:</h5>
+			<ul>
+				<li><a target="_blank" href="https://98.cherrydub.com/">Windows 98</a> - Site I made to showcase projects, CV, contact info</li>
+				<li><a target="_blank" href="https://cherrydub.com/">Portfolio</a> - Recruiter friendly portfolio</li>
+				<li><a target="_blank" href="https://json.cherrydub.com/">JSON helper</a> - formatter / path finder</li>
+
+			</ul>
+
+
+
+		</main>
+		<Footer />
+	</body>
+</html>
